@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template is Working</title>
+</head>
+<body>
+    <h2>Welcome to {{webname}}! 😐</h2>
+
+    <form action="/analyzer" method="get">
+        <textarea name="text" style="width: 667px; height: 106px;"></textarea>
+        <br>
+        <label>
+            <input type="checkbox" name="rempunc">
+            Remove Punctuation
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="capfirst">
+            Capitalize First
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="remln">
+            Extra Line Remover
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="remspc">
+            Space Remover
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="charcnt">
+            Character Counter
+        </label>
+        <br>
+        <button type="submit">Analyze text</button>
+    </form>
+    
+</body>
+</html>
